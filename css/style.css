@@ -1,0 +1,59 @@
+body {
+  font-family: "Comic Neue", cursive;
+background-color: #9a8478;
+}
+.header-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  font-weight: 700;
+  font-size: 4.5rem;
+  color: rgb(88, 48, 24);
+}
+.introDrum {
+  width: 150px;
+}
+.sound-container {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.cols {
+  height: 150px;
+  width: 150px;
+  border: 10px solid rgb(88, 48, 24);
+  color: black;
+  border-radius: 5px;
+  font-size: 4.5rem;
+  font-weight: 600;
+  text-align: center;
+}
+.column-1 {
+  background-image: url("../imgs/tom1.png");
+}
+.column-2 {
+  background-image: url("../imgs/tom2.png");
+}
+.column-3 {
+  background-image: url("../imgs/tom3.png");
+}
+.column-4 {
+  background-image: url("../imgs/tom4.png");
+}
+.column-5 {
+  background-image: url("../imgs/kick.png");
+}
+.column-6 {
+  background-image: url("../imgs/snare.png");
+}
+.column-7 {
+  background-image: url("../imgs/crash.png");
+}
+.kick {
+  font-size: 5rem;
+}
